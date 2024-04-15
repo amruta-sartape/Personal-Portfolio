@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .Portfolio-sections {
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+ }
+ 
+ .navigation-bar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+ }
+ 
+ .Portfolio-sections h1 {
+    margin-top: 50px;
+ }
+ 
+ html {
+    scroll-behavior: smooth;
+ }
+ 
+ .main-container {
+    position: relative;
+    top: 50px;
+ }
+ 
+ .brand {
+    font-size: 30px;
+    font-family: arial black;
+    font-variant: small-caps;
+    color: rgb(105, 13, 139);
+ }
+ 
+ .navmenu {
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 15px;
+ }
+ 
+ .navmenu:hover {
+    text-decoration: underline 2px solid black;
+    text-underline-offset: 6px;
+ }
+ 
+ .tracking-in-expand {
+     -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+             animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+ }
+  @-webkit-keyframes tracking-in-expand {
+     0% {
+       letter-spacing: -0.5em;
+       opacity: 0;
+     }
+     40% {
+       opacity: 0.6;
+     }
+     100% {
+       opacity: 1;
+     }
+   }
+   @keyframes tracking-in-expand {
+     0% {
+       letter-spacing: -0.5em;
+       opacity: 0;
+     }
+     40% {
+       opacity: 0.6;
+     }
+     100% {
+       opacity: 1;
+     }
+   }
+ 
+ #home {
+    height: 470px;
+    background-image: url("https://cdn.pixabay.com/photo/2024/02/02/18/48/woman-8548853_640.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    margin-top: 50px;
+    background-position: 90% 20%;
+    /* background-color: rgb(185, 186, 188); */
+    border: none;
+ }
+ 
+ #home-info {
+    position: absolute;
+    top: 20px;
+    width: 400px;
+    height: 250px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 50px;
+ }
+ 
+ .info {
+    font-weight: bolder;
+    color: lightslategray;
+ }
+ 
+ .designation {
+    color: royalblue;
+    font-size: 25px;
+    font-weight: bolder;
+ }
+ 
+ .myname {
+    font-size: 35px;
+ }
+ 
+ .rsmbtn {
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: royalblue;
+    color: white;
+    transition-duration: 1s;
+ }
+ 
+ .rsmbtn:hover {
+    background-color: white;
+    color: royalblue;
+    border: 3px solid royalblue;
+ 
+    transform: scale(1.1);
+ }
+ 
+ /* .about-section{
+     height: 500%;
+     width: 100%;
+     background-color: whitesmoke;
+  } */
+ 
+ .about-section {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+ }
+ 
+ .aboutmain {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+ }
+ 
+ .aboutmain div {
+    height: 500px;
+    width: 50%;
+ }
+ 
+ .minion {
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 90px;
+    animation-duration: 4s;
+    animation-name: zoom;
+    animation-iteration-count: 1;
+ }
+ 
+ @keyframes zoom {
+    100% {
+       transform: scale(1.2);
+       border-radius: 60px;
+    }
+ }
+ 
+ .heading {
+    font-family: arial black;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+    color: royalblue;
+ }
+ 
+ .carrerobj {
+    padding: 30px;
+ }
+ 
+ .careerinfo {
+    text-align: justify;
+    line-height: 40px;
+    text-indent: 100px;
+    word-spacing: 7px;
+    letter-spacing: 1px;
+ }
+ 
+ /* skills css */
+ #skills{
+	height: 690px;
+	width: 100%;
+	background-color: white;
+	/* border: 5px solid red; */
+}
+.tb1{
+	margin-left: 5%;
+	border-spacing: 20px;
+   border-collapse: separate;
+}
+.tb1 tr td{
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px royalblue;
+	transition-duration: 1.5px;
+	
+}
+.skills-subheading {
+	color: orangered;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 25px;
+	font-variant: small-caps;
+
+}
+.detailed-skills{
+	font-size: 23px;
+	font-weight: bolder;
+	color: rgb(red, green, blue);
+	line-height: 40px;
+	word-spacing: 3px;
+	margin-top: 20px;
+}
+table{
+	/* border-collapse: separate; */
+}
+ 
+ /* project css */
+
+ #projects {
+    height: 800px;
+    width: 100%;
+    padding: 10px;
+ }
+ 
+ .heading {
+    color: royalblue;
+    font-family: arial black;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35;
+ }
+ 
+ .card-img-top {
+    height: 400px;
+    width: 30px;
+    padding: 10%;
+ }
+ 
+ .card-img-top:hover{
+    transform: scale(1.2);
+ }
+ 
+ .card-text {
+    text-align: justify;
+ }
+ 
+ 
+ .project-card-container {
+    padding: 20px;
+    margin-top: 20px;
+ }
+ 
+ .card-title {
+    color: orangered;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+ }
+ 
+ .card-title:hover {
+    text-decoration: underline 2px solid orangered;
+    text-underline-offset: 5px;
+    cursor: pointer;
+ }
+ 
+ 
+ /* contact information */
+ 
+ #contact{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+  }
+  .main-container1{
+    height: 400px;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+  }
+  .contact-child{
+    height: 400px;
+    width: 50%;
+  }
+  .contact-info li{
+  margin-top: 20px;
+  text-align: justify;
+  }
+  .contact-form{
+    padding: 15px;
+    padding-left: 70px;
+    margin-top: 5px;
+  }
+  #footer{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(162, 155, 164);
+    text-align: center;
+    color: black;
+  }
+  #footerinfo{
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+  }
+ 
+  
+ 
