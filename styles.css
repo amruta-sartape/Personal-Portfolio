@@ -1,3 +1,6 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -130,14 +133,13 @@
     color: white;
     transition-duration: 1s;
  }
- 
  .rsmbtn:hover {
-    background-color: white;
-    color: royalblue;
-    border: 3px solid royalblue;
+   background-color: white;
+   color: royalblue;
+   border: 3px solid royalblue;
+   transform: scale(1.1);
+}
  
-    transform: scale(1.1);
- }
  
  /* .about-section{
      height: 500%;
